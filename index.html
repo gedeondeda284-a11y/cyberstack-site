@@ -191,8 +191,10 @@
       .container-flex { flex-direction: column; }
     }
     @media screen and (max-width: 500px) {
-      .container-grid { grid-template-columns: repeat(2, 1fr; }
-      nav { flex-direction: column; }
+    .container-grid{
+		grid-template-columns: 1fr;
+	}
+      nav { flex-direction: columns; }
     }
 
     /* ANIMATIONS */
